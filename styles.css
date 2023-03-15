@@ -3,4 +3,18 @@
     margin: 0;
     box-sizing: border-box;
 }
+.back_img {
+  background-image: url('https://img.freepik.com/free-photo/makeup-cosmetic-beauty-products-pink-background_23-2148113421.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.heading {
+    font-size: 210%;
+  color:  rgb(88, 14, 44);
+  font-family: Garamond, serif;
+  text-align: center;
+}
+
 
