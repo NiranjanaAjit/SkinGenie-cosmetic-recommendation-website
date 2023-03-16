@@ -1,6 +1,8 @@
-'use strict'
+
+
+
 function filterFunction1() {
-    var input, filter, ul, li, a, i;
+  var input, filter, ul, li, a, i;
     input = document.getElementById("myInput1");
     filter = input.value.toUpperCase();
     div = document.getElementById("myDropdown1");
