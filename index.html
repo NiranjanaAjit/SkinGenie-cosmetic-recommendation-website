@@ -52,7 +52,7 @@
     <div class="dropdown">
       <button onclick="myFunction1()" class="dropbtn">Choose your Ingredients</button>
       <div id="myDropdown1" class="dropdown-content">
-        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction1()">
+        <input type="text" placeholder="Search.." id="myInput1" onkeyup="filterFunction1()">
         <a href="#VitC">Vitamin C</a>
         <a href="#HylauronicAcid">Hyaluronic Acid</a>
         <a href="#VitaminE">Vitamin E</a>
@@ -66,7 +66,7 @@
     <div class="dropdown">
       <button onclick="myFunction2()" class="dropbtn">Choose your Type of Product</button>
       <div id="myDropdown2" class="dropdown-content">
-        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction2()">
+        <input type="text" placeholder="Search.." id="myInput2" onkeyup="filterFunction2()">
         <a href="#Moisturizer">Moisturizer</a>
         <a href="#Sunscreen">Sunscreen</a>
         <a href="#Foundation">Foundation</a>
@@ -88,7 +88,7 @@
     
     function filterFunction1() {
       var input, filter, ul, li, a, i;
-      input = document.getElementById("myInput");
+      input = document.getElementById("myInput1");
       filter = input.value.toUpperCase();
       div = document.getElementById("myDropdown1");
       a = div.getElementsByTagName("a");
@@ -103,7 +103,7 @@
     }
     function filterFunction2() {
       var input, filter, ul, li, a, i;
-      input = document.getElementById("myInput");
+      input = document.getElementById("myInput2");
       filter = input.value.toUpperCase();
       div = document.getElementById("myDropdown2");
       a = div.getElementsByTagName("a");
