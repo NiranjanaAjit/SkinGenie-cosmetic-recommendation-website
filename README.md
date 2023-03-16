@@ -1,1 +1,1 @@
-SkinGenie is a webiste created as part of Girlathon 2023. The purpose of the website is to find products that match one's skin type and problems.
+SkinGenie is a webiste created as part of Girlathon 2023.A Website offering costemic advice based on preferences, such as skin type, allergic reactions to substances, and desired constituents in a product. To discover the product based on the user's request, we are leveraging Sephora's dataset. 
