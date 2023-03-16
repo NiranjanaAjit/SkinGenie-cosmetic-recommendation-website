@@ -11,7 +11,7 @@
 
 }
 .heading {
-    font-size: 210%;
+  font-size: 210%;
   color:  rgb(88, 14, 44);
   font-family: Garamond, serif;
   text-align: center;
@@ -35,6 +35,13 @@
 .dropbtn:hover, .dropbtn:focus {
   background-color: #000000;
 }
+
+#select-stuff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 #myInput1 {
   box-sizing: border-box;
