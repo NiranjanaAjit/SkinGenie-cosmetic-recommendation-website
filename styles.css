@@ -36,6 +36,13 @@
   background-color: #000000;
 }
 
+#select-stuff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 #myInput1 {
   box-sizing: border-box;
   background-image: url('searchicon.png');
