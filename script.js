@@ -97,8 +97,6 @@ function filterFunction1() {
 
 
 
-=======
-
   let skb = document.querySelector('#skintypebutton')
 
   skb.addEventListener('click', () => {
