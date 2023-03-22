@@ -8,22 +8,13 @@
 
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
-
-    
   </head>
   <body class="back_img">
     <!-- Image and text -->
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img
-          src="/docs/4.0/assets/brand/bootstrap-solid.svg"
-          width="30"
-          height="30"
-          class="d-inline-block align-top"
-          alt=""
-        />
-        SkinGenie
-      </a>
+    <nav>
+     
+      <button id='skintypebutton'> Whats my skintype?</button> 
+<!-- >>>>>>> main -->
     </nav>
     <div
       id="carouselExampleSlidesOnly"
@@ -33,11 +24,12 @@
       <div class="carousel-inner">
         <div class="carousel-item active heading">
           <h3>Hey! Welcome to SkinGenie</h3>
+
           <h4><i>
             Find solutions to all your skin problems..
           </i>
           <h2>__________________________________________________</h2>
-          </h4>
+          
         </div>
         <div class="carousel-item">
           <!--<img class="d-block w-100" src="..." alt="Second slide">
@@ -47,28 +39,76 @@
         </div>
       </div>
     </div>
-                
+
     <h2></h2>
-            
+
     <div id="select-stuff">
       <div class="dropdown">
-        <button onclick="myFunction1()" class="dropbtn">Choose your Ingredients</button>
+        <button onclick="myFunction1()" class="dropbtn">
+          Choose your Ingredients
+        </button>
         <div id="myDropdown1" class="dropdown-content">
-          <input type="text" placeholder="Search.." id="myInput1" onkeyup="filterFunction1()">
+          <input
+            type="text"
+            placeholder="Search.."
+            id="myInput1"
+            onkeyup="filterFunction1()"
+          />
           <a href="#VitC">Vitamin C</a>
           <a href="#HylauronicAcid">Hyaluronic Acid</a>
-          <a href="#VitaminE">Vitamin E</a>
+          <a href="#Vitamin E">Vitamin E</a>
           <a href="#Retinol">Retinol</a>
           <a href="#Niacinamide">Niacinamide</a>
           <a href="#Peptides">Peptides</a>
           <a href="#AHA">Alpha-Hydroxy Acid (AHA)</a>
         </div>
       </div>
-      <h2></h2>            
+      <h2></h2>
+      <!-- CSS -->
+      <style type="text/css">
+        table th,
+        table td {
+          padding: 5px;
+        }
+      </style>
+
+      <div>
+        <div>
+          <input type="file" name="file" id="file" accept=".csv" /> <br /><br />
+          <input
+            type="button"
+            id="btnsubmit"
+            value="Submit"
+            onclick="readCSVFile();"
+          />
+        </div>
+
+        <br /><br />
+        <!-- List CSV file data -->
+        <table id="tblcsvdata" border="1" style="border-collapse: collapse">
+          <thead>
+            <tr>
+              <th>brand</th>
+              <th>name</th>
+              <th>price</th>
+              <!--<th>Email</th>-->
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
       <div class="dropdown">
-        <button onclick="myFunction2()" class="dropbtn">Choose your Type of Product</button>
+        <button onclick="myFunction2()" class="dropbtn">
+          Choose your Type of Product
+        </button>
         <div id="myDropdown2" class="dropdown-content">
-          <input type="text" placeholder="Search.." id="myInput2" onkeyup="filterFunction2()">
+          <input
+            type="text"
+            placeholder="Search.."
+            id="myInput2"
+            onkeyup="filterFunction2()"
+          />
           <a href="#Moisturizer">Moisturizer</a>
           <a href="#Sunscreen">Sunscreen</a>
           <a href="#Foundation">Foundation</a>
@@ -83,16 +123,14 @@
       <button class="Search">Search</button>
     </div>
     <script>
-    /* When the user clicks on the button,
+      /* When the user clicks on the button,
     toggle between hiding and showing the dropdown content */
-    function myFunction1() {
-      document.getElementById("myDropdown1").classList.toggle("show");
-    }
-    function myFunction2() {
-      document.getElementById("myDropdown2").classList.toggle("show");
-    }
-    
-    
+      function myFunction1() {
+        document.getElementById("myDropdown1").classList.toggle("show");
+      }
+      function myFunction2() {
+        document.getElementById("myDropdown2").classList.toggle("show");
+      }
     </script>
   </body>
 </html>

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .back_img {
-  background-image: url('https://img.freepik.com/free-photo/makeup-cosmetic-beauty-products-pink-background_23-2148113421.jpg');
+  background-image: url("https://img.freepik.com/premium-photo/pack-different-cosmetics-with-copy-space-white-background_23-2148574417.jpg?w=2000");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -96,6 +96,7 @@
 
 .show {display: block;}
 
+
 .Search{
   border: none;
   color:white;
@@ -108,4 +109,21 @@
   cursor: pointer;
   font-family: monospace;
   z-index: 1;
+}
+.skintype-body {
+  background-color: rgb(103, 103, 45);
+}
+
+#skintypebutton {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-family: Garamond, serif;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  background: #52122c;
+  color: white;
+  cursor: pointer
+
 }
