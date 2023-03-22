@@ -99,3 +99,16 @@
 .skintype-body {
   background-color: rgb(103, 103, 45);
 }
+
+#skintypebutton {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-family: Garamond, serif;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  background: #52122c;
+  color: white;
+  cursor: pointer
+}

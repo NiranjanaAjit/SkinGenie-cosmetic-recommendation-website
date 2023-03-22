@@ -33,6 +33,7 @@ function filterFunction1() {
     }
   }
 
+// <<<<<<< main
   function readCSVFile(){
 
     //this part
@@ -96,3 +97,11 @@ function filterFunction1() {
 
 
 
+=======
+
+  let skb = document.querySelector('#skintypebutton')
+
+  skb.addEventListener('click', () => {
+    window.location.href='skintype.html'
+  })
+// >>>>>>> main
