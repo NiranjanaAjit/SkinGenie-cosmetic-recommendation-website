@@ -95,3 +95,7 @@
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+.skintype-body {
+  background-color: rgb(103, 103, 45);
+}
