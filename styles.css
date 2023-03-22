@@ -96,6 +96,20 @@
 
 .show {display: block;}
 
+
+.Search{
+  border: none;
+  color:white;
+  background-color:black;
+  padding: 8px  16px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: monospace;
+  z-index: 1;
+}
 .skintype-body {
   background-color: rgb(103, 103, 45);
 }
@@ -111,4 +125,5 @@
   background: #52122c;
   color: white;
   cursor: pointer
+
 }
