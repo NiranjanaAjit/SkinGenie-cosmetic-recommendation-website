@@ -5,7 +5,7 @@
 }
 .back_img {
   background-image: url("https://img.freepik.com/premium-photo/pack-different-cosmetics-with-copy-space-white-background_23-2148574417.jpg?w=2000");
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
   background-attachment: fixed;
   background-size: cover;
 
@@ -30,6 +30,9 @@
   font-family:monospace ;
   border: none;
   cursor: pointer;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -98,6 +101,9 @@
 
 
 .Search{
+  margin: 200px;
+  padding: 5px;
+  border-radius: 1rem;
   border: none;
   color:white;
   background-color:black;
@@ -105,13 +111,25 @@
   text-align: center;
   display: block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
   font-family: monospace;
   z-index: 1;
 }
 .skintype-body {
-  background-color: rgb(103, 103, 45);
+  background-image: url("https://img.freepik.com/premium-photo/pack-different-cosmetics-with-copy-space-white-background_23-2148574417.jpg?w=2000");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: monospace;
+  font-size: large;
+}
+
+#head{
+margin: 50px;
+font-size: 150%;
+font-family: Garamond, serif;
+color: black;
+font-weight: bold;
+text-decoration: dotted underline;
 }
 
 #skintypebutton {
@@ -122,8 +140,29 @@
   font-size: 1rem;
   outline: none;
   border: none;
-  background: #52122c;
+  background: #801c44;
   color: white;
   cursor: pointer
 
 }
+
+#p1{
+  
+  border-radius: 10px;
+  text-align: center;
+  border-style:solid;
+  border-width: 5px;
+  padding: 10px;
+  margin: 30px;
+  width: 300px;
+  height:250px
+}
+
+#class{
+  font-size: 300%;
+  text-decoration:solid;
+  text-align: center;
+  color: #801c44;
+  font-family: Garamond, serif;
+}
+
